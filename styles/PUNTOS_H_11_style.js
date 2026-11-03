@@ -9,8 +9,8 @@ var style_PUNTOS_H_11 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("");
-    var labelFont = "13.0px \'Open Sans\', sans-serif";
-    var labelFill = "#323232";
+    var labelFont = "19.5px \'Open Sans\', sans-serif";
+    var labelFill = "#e31a1c";
     var bufferColor = "#fafafa";
     var bufferWidth = 3.0;
     var textAlign = 'left';
