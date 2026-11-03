@@ -238,7 +238,7 @@ lyr_PK_NUM_7.set('fieldLabels', {'PK': 'no label', 'RotationTex': 'no label', 'A
 lyr_T3_EJE_8.set('fieldLabels', {'FShape': 'no label', 'Entity': 'no label', 'Layer': 'no label', 'Color': 'no label', 'Elevation': 'no label', 'Thickness': 'no label', 'Text': 'no label', 'HeightText': 'no label', 'RotationTex': 'no label', 'BlockName': 'no label', });
 lyr_COLOCACION_VIA_9.set('fieldLabels', {'TRAMO': 'no label', 'SUBTRAMO': 'no label', 'VIA': 'no label', 'LONGITUD': 'no label', 'PK_INICIAL': 'no label', 'PK_FINAL': 'no label', 'ESTATUS': 'no label', 'FECHA': 'no label', 'OBSERVACIO': 'no label', 'AREA': 'no label', });
 lyr_T1_CADENAMIENTO_10.set('fieldLabels', {'Text': 'no label', });
-lyr_PUNTOS_H_11.set('fieldLabels', {'ID_SISGO': 'no label', 'PK': 'inline label - always visible', 'CERTIFICAD': 'no label', 'PUNTO H': 'inline label - always visible', });
+lyr_PUNTOS_H_11.set('fieldLabels', {'ID_SISGO': 'inline label - always visible', 'PK': 'inline label - visible with data', 'CERTIFICAD': 'no label', 'PUNTO H': 'inline label - always visible', });
 lyr_PUNTOS_H_11.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
